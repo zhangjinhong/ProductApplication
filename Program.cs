@@ -7,20 +7,20 @@ namespace ProductApplication
     {
         static void Main(string[] args)
         {
-            //Order1
+            //Basket1
             ShoppingBasket basket1 = new ShoppingBasket();
             basket1.products.Add(new Product("book", 1, 12.49m, true, false));
             basket1.products.Add(new Product("music CD", 1, 14.99m, false, false));
             basket1.products.Add(new Product("chocolate bar", 1, 0.85m, true, false));
             WriteData(basket1);
 
-            //Order2
+            //Basket2
             ShoppingBasket basket2 = new ShoppingBasket();
             basket2.products.Add(new Product("imported box of chocolates", 1, 10m, true, true));
             basket2.products.Add(new Product("imported bottle of perfume", 1, 47.5m, false, true));
             WriteData(basket2);
 
-            //Order3
+            //Basket3
             ShoppingBasket basket3 = new ShoppingBasket();
             basket3.products.Add(new Product("imported bottle of perfume", 1, 27.99m, false, true));
             basket3.products.Add(new Product("bottle of perfume", 1, 18.99m, false, false));
