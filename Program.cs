@@ -104,7 +104,7 @@ namespace ProductApplication
         /// <summary>
         /// 计算策略
         /// </summary>
-        private IComputeStrategy computeStrategy { set; get; }
+        private IComputeStrategy computeStrategy ;
         /// <summary>
         /// 计算
         /// </summary>
